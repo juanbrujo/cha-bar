@@ -1,0 +1,37 @@
+{
+  "name": "cha-bar",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "Mac OS X menu bar app that shows cryptocurrency CHAUCHA price in real-time",
+  "author": "Jorge Epuñan",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "numbertoclpformater": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^19.52.1",
+    "electron-packager": "^8.0.0",
+    "electron-prebuilt": "^1.4.1"
+  },
+  "scripts": {
+    "build": "build -p always",
+    "start": "electron ."
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "juanbrujo",
+        "repo": "cha-bar"
+      }
+    ],
+    "appId": "com.github.juanbrujo.cha-bar",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "Icon.icns",
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}
