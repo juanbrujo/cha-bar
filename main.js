@@ -6,8 +6,8 @@ const JSSHA = require("jssha");
 
 const iconPath = path.join(__dirname, "Icon.png");
 
-const apiKey = "xot4eDxZLWyjvbA4MJAYy55mDQ5FRc8zuX";
-const apiSecretKey = "RHA5QN6RurArY2cXEntp43YXr5Kyz6y65a";
+const apiKey = "gjfRuotKReXF7AxBNAogj9sAXBa4dANB6k";
+const apiSecretKey = "u8Z9je8LXKLai8a46kzM8joR3imPjBxB28";
 
 let tray = null;
 
