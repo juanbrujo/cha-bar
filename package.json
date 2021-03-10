@@ -5,7 +5,7 @@
   "description": "Mac OS X menu bar app that shows cryptocurrency CHAUCHA price in real-time",
   "author": "Jorge Epuñan",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "jssha": "^2.3.1",
     "numbertoclpformater": "^1.0.0"
   },
